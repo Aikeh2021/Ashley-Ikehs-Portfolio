@@ -1,0 +1,74 @@
+/* Your Name navbar tab pseudoclass color change */
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+/* Your Name navbar tab style modifications */
+.navbar-light .navbar-brand {
+    color: rgba(15, 14, 14, 0.589);
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    /* background-color: rgb(16, 180, 180); */
+}
+
+/* Link to brick background applied to body of website */
+body {
+    background-image: url("https://creative-designs.ca/wp-content/uploads/2015/08/Website-Design-Background.jpg");
+}
+
+/* Container style modifications */
+.container {
+    background-color: white;
+    margin-left: 2%;
+    width: 70%;
+}
+
+.nav-item {
+    color: rgba(15, 14, 14, 0.589);
+    font-family: 'Jaldi', sans-serif;
+    font-size: 20px;
+}
+/* "About Me" style modifications */
+h1  {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgba(15, 14, 14, 0.589);
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* Horizontal line under h1 style modifications */
+hr {
+    padding-bottom: 20px;
+}
+
+/* Style changes to wrap paragraph text around picture */
+#AboutImage {
+    float: left;
+    margin: 1px 20px 5px 0px;
+}
+
+/* Style changes around About Me content to add white space around the material */
+.AboutMeBlock {
+    /* padding: 0px; */
+    
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+p {
+    font-family: 'Jaldi', sans-serif;
+    color: rgba(15, 14, 14, 0.589);
+    font-size: 18px;
+}
+
+/* /* Viewport 425px and lower */
+@media screen and (max-width: 425px){
+    #AboutImage {
+        width: 160px;
+        height: 160px;
+    }
+}
+
