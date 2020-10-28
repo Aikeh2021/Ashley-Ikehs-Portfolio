@@ -64,13 +64,15 @@ p {
 .container {
     background-color: rgba(255, 255, 255, 0.911);
     border-radius: 5px;
+    margin: auto;
+    width: 80%;
 }
 
 /* /* Viewport 425px and lower */
 @media screen and (max-width: 425px){
     #AboutImage {
-        width: 160px;
-        height: 160px;
+        width: 120px;
+        height: 140px;
     }
 }
 
