@@ -59,15 +59,18 @@ img {
     font-size: 16px;
 }
 
-.port-button-divs {
-    margin: auto;
-    width: 50px;
-}
-
-.port-buttons {
+/* Stying for the Links */
+a {
     color: rgba(15, 14, 14, 0.589);
     font-family: 'Jaldi', sans-serif;
+    font-size: 24px;
     
+}
+/* Styling for the h2 headings */
+h2 {
+    color: rgba(15, 14, 14, 0.705);
+    font-family: 'Jaldi', sans-serif;
+    font-weight: 600;
 }
 
 /* /* Viewport 769px and higher */
