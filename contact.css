@@ -1,6 +1,6 @@
 /* Your Name navbar tab pseudoclass color change */
 .navbar-light .navbar-brand:hover {
-    color: black;
+    color: rgba(0, 0, 0, 0.61);
 }
 
 /* Your Name navbar tab style modifications */
@@ -63,6 +63,12 @@ form {
     font: 'Jaldi', sans-serif;
     font-size: 22px;
     border-radius: 10px;
+}
+/* Website's footer styling */
+#site-footer {
+    color: rgba(15, 14, 14, 0.589);
+    font-family: 'Jaldi', sans-serif;
+    font-size: 16px;
 }
 
 /* /* Viewport 767px and smaller */
