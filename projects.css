@@ -46,11 +46,9 @@ body {
     width: 80%;
     border-radius: 5px;
 }
-/* Form content style modifications */
-form {
-    width: auto;
-    font-family: 'Jaldi', sans-serif;
-    font-size: 22px;
+/* Screenshots Style Modifications */
+img {
+    align-items: center;
 }
 
 /* Website's footer styling */
@@ -61,7 +59,7 @@ form {
 }
 
 /* /* Viewport 767px and smaller */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 80%;
     }
