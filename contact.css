@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 
-/* Styling for h1 heading on Projects */
+/* Styling for h1 heading on contact sheet */
 h1  {
     font-family: 'Jaldi', sans-serif;
     font-size: 65px;
@@ -33,7 +33,7 @@ hr {
     padding-bottom: 20px;
 }
 
-/* Link to gray background applied to body of website */
+/* Link to brick background applied to body of website */
 body {
     background-image: url("https://creative-designs.ca/wp-content/uploads/2015/08/Website-Design-Background.jpg");
 }
@@ -52,7 +52,18 @@ form {
     font-family: 'Jaldi', sans-serif;
     font-size: 22px;
 }
-
+/* Webpage button style changes */
+.block {
+    background-color: rgba(15, 14, 14, 0.589);
+    padding: 20px;
+    display: block;
+    color: white;
+    width: 20%;
+    border: none;
+    font: 'Jaldi', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+}
 /* Website's footer styling */
 #site-footer {
     color: rgba(15, 14, 14, 0.589);
@@ -65,8 +76,8 @@ form {
     .container {
         width: 80%;
     }
-    img {
-        width: 70%;
+    .block {
+        width: 60%;
     }
 
 }
