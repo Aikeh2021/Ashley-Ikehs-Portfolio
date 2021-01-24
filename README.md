@@ -16,7 +16,7 @@ This website will supplement any job applications I submit, as well as, serve as
 
 ## Installation
 
-Please [click here](https://aikeh2021.github.io/Ashley-Ikehs-Portfolio/portfolio.html) to view the website.
+Please [click here](https://aikeh2021.github.io/Ashley-Ikehs-Portfolio/index.html) to view the website.
 
 ![DeployedAboutMePage](assets/Ashleys-Portfolio-Pic1.png)
 
