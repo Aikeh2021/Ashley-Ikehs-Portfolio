@@ -46,6 +46,10 @@ body {
     width: 80%;
     border-radius: 5px;
 }
+/* Style modifications to a p tag and 2 h3 elements */
+.center-text{
+    text-align: center;
+}
 /* Screenshots Style Modifications */
 img {
     align-items: center;
