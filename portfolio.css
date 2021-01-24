@@ -47,16 +47,20 @@ hr {
 }
 
 /* 350x350 image placeholder style changes */
-img {
-    margin: 20px 10px 20px 10px;
-    /* align-items: center; */
-    
-}
+#resume-pic {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
 /* Website's footer styling */
 #site-footer {
     color: rgba(15, 14, 14, 0.589);
     font-family: 'Jaldi', sans-serif;
     font-size: 16px;
+}
+.text-content{
+    text-align: center;
 }
 
 /* Stying for the Links */
@@ -74,10 +78,13 @@ h2 {
 }
 
 /* /* Viewport 769px and higher */
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
     img {
-        margin: 30px 0px 30px 20px;
-        float: left;
-    }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+          width: 80%;
+          height: 80%;
+        }
 }
 
